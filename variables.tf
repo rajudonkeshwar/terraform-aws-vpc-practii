@@ -28,3 +28,44 @@ variable "vpc_tags" {
 variable "igw_tags" {
   default = {}
 }
+
+
+
+
+variable "public_subnet_cidrs" {
+  
+}
+
+variable "public_subnet_tags" {
+  
+  default = {}
+}
+
+
+
+
+
+
+variable "private_subnet_cidrs" {
+  
+}
+
+variable "private_subnet_tags" {
+    default = {}
+  
+}
+
+
+
+
+
+
+variable "database_subnet_cidrs" {
+  
+}
+
+variable "database_subnet_tags" {
+
+    default = {}
+  
+}
